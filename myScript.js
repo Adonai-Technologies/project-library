@@ -1,9 +1,12 @@
-function Book() {
-    this.title = "Hunter";
-    this.author = "Eunice";
-    this.pages = "345";
-    this.read = "Not read yet";
-    hunter.info() = function () {
-        return;
-    };
+function Book(title, author) {
+    this.title = title;
+    this.author = author;
+    this.pages = pages;
+    this.getDetails = function () {
+        return this.title + " written by " + this.author;
+    }
 }
+
+var book = new Book("Fiction", "Peter King");
+
+console.log(book.getDetails());        // => Fiction written by Peter King
