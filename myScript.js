@@ -10,3 +10,16 @@ function Book(title, author) {
 var book = new Book("Fiction", "Peter King");
 
 console.log(book.getDetails());        // => Fiction written by Peter King
+
+
+
+
+let myLibrary = [];
+
+function Book() {
+  // the constructor...
+}
+
+function addBookToLibrary() {
+  // do stuff here
+}
