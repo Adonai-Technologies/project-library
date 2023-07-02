@@ -14,7 +14,26 @@ button.addEventListener("click", function () {
     ) {
         alert("Enter any input")
     } else {
-     const bookListRow = document.createElement("tr")
+        const bookListRow = document.createElement("tr")
+        
+        const newTitle = document.createElement("th")
+        newTitle.innerHTML - titleInput.value;
+        bookListRow.appendChild(newTitle)
+
+
+        const newAuthor = document.createElement("th")
+        newTitle.innerHTML - authorInput.value;
+        bookListRow.appendChild(newTitle)
+        
+        const newISBN = document.createElement("th")
+        newTitle.innerHTML -  isbnInput.value;
+        bookListRow.appendChild(newTitle)
+
+
+
+        
+
+
     }
 
 })
